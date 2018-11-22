@@ -12,7 +12,7 @@ import android.widget.Spinner;
 public class Class_Entradas2 extends AppCompatActivity {
 
     EditText txtEntCodigoProd, txtEntNombreProd, txtEntCantidadProd, txtEntPrecioProd, txtEntImporteProd, txtSubTotalEnt, txtIGVent, txtTotalEnt;
-    ImageView btnBuscarPEnt2 = (ImageView) findViewById(R.id.btnBuscarPEnt2);
+//    ImageView btnBuscarPEnt2 = (ImageView) findViewById(R.id.btnBuscarPEnt2);
     Spinner spinEntCategoriaProd;
     Button btnCancelarE2, btnAtrasE2, btnSiguienteE2;
 

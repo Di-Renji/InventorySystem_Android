@@ -47,11 +47,11 @@ public class Class_Entradas1 extends AppCompatActivity {
     }
 
     public void irEntrada2(){
-        Intent i = new Intent(this, Class_Entradas2.class);
+        Intent i = new Intent(Class_Entradas1.this, Class_Entradas2.class);
         startActivity(i);
     }
     public void irMenu(){
-        Intent i = new Intent(this, Class_Menu.class);
+        Intent i = new Intent(Class_Entradas1.this, Class_Menu.class);
         startActivity(i);
     }
 }

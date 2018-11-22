@@ -9,12 +9,20 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class Class_ProductoCRUD extends AppCompatActivity {
 
     Button btnGuardarProd, btnModificarProd, btnEliminarProd, btnCancelarProd;
     ImageView btnBuscarProd2;
     EditText txtCodigoProd, txtNombreProd, txtUnidadProd, txtPrecioProd, txtFolioProd;
     Spinner spinCategoriaProd;
+    // Access a Cloud Firestore instance from your Activity
+
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +40,20 @@ public class Class_ProductoCRUD extends AppCompatActivity {
         txtUnidadProd = findViewById(R.id.txtUnidadProd);
         txtFolioProd = findViewById(R.id.txtFolioProd);
         spinCategoriaProd = findViewById(R.id.spinCategoriaProd);
+
+        btnGuardarProd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Map<String, Object> producto = new HashMap<>();
+                producto.put("codigo", txtCodigoProd.getText().toString());
+                producto.put("nombre", txtNombreProd.getText().toString());
+                producto.put("precio", 1815);
+                producto.put("unidad", 1815);
+                producto.put("folio", 1815);
+            }
+        });
+
+
 
         btnCancelarProd.setOnClickListener(new View.OnClickListener() {
             @Override
