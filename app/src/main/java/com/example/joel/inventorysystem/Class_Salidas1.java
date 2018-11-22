@@ -10,26 +10,26 @@ import android.widget.ImageView;
 
 public class Class_Salidas1 extends AppCompatActivity {
 
-    private EditText txtSalCodigoC, txtSalNombreC, txtSalDireccionC, txtSalTelefonoC, txtSalCorreoC, txtSalTipoC, txtSalFechaC, txtSalFolioC;
-    private ImageView btnBuscarCSal1;
-    private Button btnAtrasS1, btnSiguienteS1;
+    EditText txtSalCodigoC, txtSalNombreC, txtSalDireccionC, txtSalTelefonoC, txtSalCorreoC, txtSalTipoC, txtSalFechaC, txtSalFolioC;
+    ImageView btnBuscarCSal1;
+    Button btnAtrasS1, btnSiguienteS1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_salidas1);
 
-        txtSalCodigoC = (EditText) findViewById(R.id.txtSalCodigoC);
-        txtSalNombreC = (EditText) findViewById(R.id.txtSalNombreC);
-        txtSalDireccionC = (EditText) findViewById(R.id.txtSalDireccionC);
-        txtSalTelefonoC = (EditText) findViewById(R.id.txtSalTelefonoC);
-        txtSalCorreoC = (EditText) findViewById(R.id.txtSalCorreoC);
-        txtSalTipoC = (EditText) findViewById(R.id.txtSalTipoC);
-        txtSalFechaC = (EditText) findViewById(R.id.txtSalFechaC);
-        txtSalFolioC = (EditText) findViewById(R.id.txtSalFolioC);
-        btnBuscarCSal1 = (ImageView) findViewById(R.id.btnBuscarCSal1);
-        btnAtrasS1 = (Button) findViewById(R.id.btnAtrasS1);
-        btnSiguienteS1 = (Button) findViewById(R.id.btnSiguienteS1);
+        txtSalCodigoC = findViewById(R.id.txtSalCodigoC);
+        txtSalNombreC = findViewById(R.id.txtSalNombreC);
+        txtSalDireccionC = findViewById(R.id.txtSalDireccionC);
+        txtSalTelefonoC = findViewById(R.id.txtSalTelefonoC);
+        txtSalCorreoC = findViewById(R.id.txtSalCorreoC);
+        txtSalTipoC = findViewById(R.id.txtSalTipoC);
+        txtSalFechaC = findViewById(R.id.txtSalFechaC);
+        txtSalFolioC = findViewById(R.id.txtSalFolioC);
+        btnBuscarCSal1 = findViewById(R.id.btnBuscarCSal1);
+        btnAtrasS1 = findViewById(R.id.btnAtrasS1);
+        btnSiguienteS1 = findViewById(R.id.btnSiguienteS1);
 
         btnAtrasS1.setOnClickListener(new View.OnClickListener() {
             @Override

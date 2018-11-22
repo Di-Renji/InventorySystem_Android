@@ -10,15 +10,15 @@ import android.widget.ImageView;
 
 public class Class_Cliente extends AppCompatActivity {
 
-    private Button btnCRUDcliente;
-    private ImageView btnBuscarC1;
-    private EditText txtCliente;
+    Button btnCRUDcliente;
+    ImageView btnBuscarC1;
+    EditText txtCliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cliente);
-        btnCRUDcliente = (Button) findViewById(R.id.btnCRUDcliente);
+        btnCRUDcliente = findViewById(R.id.btnCRUDcliente);
         btnCRUDcliente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

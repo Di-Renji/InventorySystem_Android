@@ -11,29 +11,28 @@ import android.widget.Spinner;
 
 public class Class_Entradas2 extends AppCompatActivity {
 
-    private EditText txtEntCodigoProd, txtEntNombreProd, txtEntCantidadProd, txtEntPrecioProd, txtEntImporteProd, txtSubTotalEnt, txtIGVent, txtTotalEnt;
-    private ImageView btnBuscarPEnt2;
-    private Spinner spinEntCategoriaProd;
-    private Button btnCancelarE2, btnAtrasE2, btnSiguienteE2;
+    EditText txtEntCodigoProd, txtEntNombreProd, txtEntCantidadProd, txtEntPrecioProd, txtEntImporteProd, txtSubTotalEnt, txtIGVent, txtTotalEnt;
+    ImageView btnBuscarPEnt2 = (ImageView) findViewById(R.id.btnBuscarPEnt2);
+    Spinner spinEntCategoriaProd;
+    Button btnCancelarE2, btnAtrasE2, btnSiguienteE2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entradas2);
 
-        txtEntCodigoProd = (EditText) findViewById(R.id.txtEntCodigoProd);
-        txtEntNombreProd = (EditText) findViewById(R.id.txtEntNombreProd);
-        txtEntCantidadProd = (EditText) findViewById(R.id.txtEntCantidadProd);
-        txtEntPrecioProd = (EditText) findViewById(R.id.txtEntPrecioProd);
-        txtEntImporteProd = (EditText) findViewById(R.id.txtEntImporteProd);
-        txtSubTotalEnt = (EditText) findViewById(R.id.txtSubTotalEnt);
-        txtIGVent = (EditText) findViewById(R.id.txtIGVent);
-        txtTotalEnt = (EditText) findViewById(R.id.txtTotalEnt);
-        spinEntCategoriaProd = (Spinner) findViewById(R.id.spinEntCategoriaProd);
-        btnBuscarPEnt2 = (ImageView) findViewById(R.id.btnBuscarPEnt2);
-        btnCancelarE2 = (Button) findViewById(R.id.btnCancelarE2);
-        btnAtrasE2 = (Button) findViewById(R.id.btnAñadirE2);
-        btnSiguienteE2 = (Button) findViewById(R.id.btnSiguienteE2);
+        txtEntCodigoProd = findViewById(R.id.txtEntCodigoProd);
+        txtEntNombreProd = findViewById(R.id.txtEntNombreProd);
+        txtEntCantidadProd = findViewById(R.id.txtEntCantidadProd);
+        txtEntPrecioProd = findViewById(R.id.txtEntPrecioProd);
+        txtEntImporteProd = findViewById(R.id.txtEntImporteProd);
+        txtSubTotalEnt = findViewById(R.id.txtSubTotalEnt);
+        txtIGVent = findViewById(R.id.txtIGVent);
+        txtTotalEnt = findViewById(R.id.txtTotalEnt);
+        spinEntCategoriaProd = findViewById(R.id.spinEntCategoriaProd);
+        btnCancelarE2 = findViewById(R.id.btnCancelarE2);
+        btnAtrasE2 = findViewById(R.id.btnAñadirE2);
+        btnSiguienteE2 = findViewById(R.id.btnSiguienteE2);
 
         btnSiguienteE2.setOnClickListener(new View.OnClickListener() {
             @Override

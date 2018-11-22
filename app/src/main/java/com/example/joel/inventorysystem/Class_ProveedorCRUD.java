@@ -10,9 +10,9 @@ import android.widget.ImageView;
 
 public class Class_ProveedorCRUD extends AppCompatActivity {
 
-    private EditText txtCodigoP, txtNombreP, txtDireccionP, txtTelefonoP, txtCorreoP, txtRUCP;
-    private ImageView btnBuscarP2;
-    private Button btnGuardarP, btnModificarP, btnEliminarP, btnCancelarP;
+    EditText txtCodigoP, txtNombreP, txtDireccionP, txtTelefonoP, txtCorreoP, txtRUCP;
+    ImageView btnBuscarP2;
+    Button btnGuardarP, btnModificarP, btnEliminarP, btnCancelarP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,16 +20,16 @@ public class Class_ProveedorCRUD extends AppCompatActivity {
         setContentView(R.layout.activity_proveedor_crud);
 
 
-        txtNombreP = (EditText) findViewById(R.id.txtNombreP);
-        txtDireccionP = (EditText) findViewById(R.id.txtDireccionP);
-        txtTelefonoP = (EditText) findViewById(R.id.txtTelefonoP);
-        txtCorreoP = (EditText) findViewById(R.id.txtCorreoP);
-        txtRUCP = (EditText) findViewById(R.id.txtRUCP);
-        btnBuscarP2 = (ImageView) findViewById(R.id.btnBuscarC2);
-        btnGuardarP = (Button) findViewById(R.id.btnGuardarP);
-        btnModificarP = (Button) findViewById(R.id.btnModificarP);
-        btnEliminarP = (Button) findViewById(R.id.btnEliminarP);
-        btnCancelarP = (Button) findViewById(R.id.btnCancelarP);
+        txtNombreP = findViewById(R.id.txtNombreP);
+        txtDireccionP = findViewById(R.id.txtDireccionP);
+        txtTelefonoP = findViewById(R.id.txtTelefonoP);
+        txtCorreoP = findViewById(R.id.txtCorreoP);
+        txtRUCP = findViewById(R.id.txtRUCP);
+        btnBuscarP2 = findViewById(R.id.btnBuscarC2);
+        btnGuardarP = findViewById(R.id.btnGuardarP);
+        btnModificarP = findViewById(R.id.btnModificarP);
+        btnEliminarP = findViewById(R.id.btnEliminarP);
+        btnCancelarP = findViewById(R.id.btnCancelarP);
 
         btnCancelarP.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,30 +1,41 @@
 package com.example.joel.inventorysystem;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class Class_Menu extends AppCompatActivity {
 
-    private ImageButton btnEntrada, btnSalida, btnProveedores, btnClientes, btnSalir, btnAcumulados, btnInventario, btnAjustes;
+    ImageButton btnEntrada, btnSalida, btnProveedores, btnClientes, btnSalir, btnAcumulados, btnInventario, btnAjustes;
+    FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        btnEntrada = (ImageButton) findViewById(R.id.btnEntrada);
-        btnSalida = (ImageButton) findViewById(R.id.btnSalida);
-        btnClientes = (ImageButton) findViewById(R.id.btnClientes);
-        btnProveedores = (ImageButton) findViewById(R.id.btnProveedores);
-        btnInventario = (ImageButton) findViewById(R.id.btnInventario);
-        btnAcumulados = (ImageButton) findViewById(R.id.btnAcumulados);
-        btnSalir = (ImageButton) findViewById(R.id.btnGuardarC);
+
+        btnEntrada = findViewById(R.id.btnEntrada);
+        btnSalida = findViewById(R.id.btnSalida);
+        btnClientes = findViewById(R.id.btnClientes);
+        btnProveedores = findViewById(R.id.btnProveedores);
+        btnInventario = findViewById(R.id.btnInventario);
+        btnAcumulados = findViewById(R.id.btnAcumulados);
+        btnSalir = findViewById(R.id.btnCerrarSesion);
+
+        mAuth = FirebaseAuth.getInstance();
 
         btnEntrada.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 irEntrada();
             }
         });
@@ -58,35 +69,48 @@ public class Class_Menu extends AppCompatActivity {
                 irAcumulados();
             }
         });
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signOut();
+            }
+        });
     }
 
 
-    public void irEntrada(){
+    public void irEntrada() {
         Intent i = new Intent(this, Class_Entradas1.class);
         startActivity(i);
     }
-    public void irSalida(){
+
+    public void irSalida() {
         Intent i = new Intent(this, Class_Salidas1.class);
         startActivity(i);
     }
-    public void irClientes(){
+
+    public void irClientes() {
         Intent i = new Intent(this, Class_Cliente.class);
         startActivity(i);
     }
-    public void irProveedores(){
+
+    public void irProveedores() {
         Intent i = new Intent(this, Class_Proveedor.class);
         startActivity(i);
     }
-    public void irInventario(){
+
+    public void irInventario() {
         Intent i = new Intent(this, Class_Producto.class);
         startActivity(i);
     }
-    public void irAcumulados(){
+
+    public void irAcumulados() {
         Intent i = new Intent(this, Class_Acumulados.class);
         startActivity(i);
     }
-    public void Salir(){
 
+    public void signOut() {
+        mAuth.signOut();
+        finish();
     }
-
 }
+

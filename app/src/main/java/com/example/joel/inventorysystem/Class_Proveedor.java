@@ -10,18 +10,18 @@ import android.widget.ImageView;
 
 public class Class_Proveedor extends AppCompatActivity {
 
-    private Button btnCRUDproveedor;
-    private ImageView btnBuscarP1;
-    private EditText txtProveedor;
+    Button btnCRUDproveedor;
+    ImageView btnBuscarP1;
+    EditText txtProveedor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_proveedor);
 
-        btnCRUDproveedor = (Button) findViewById(R.id.btnCRUDproveedor);
-        btnBuscarP1 = (ImageView) findViewById(R.id.btnBuscarP1);
-        txtProveedor = (EditText) findViewById(R.id.txtProveedor);
+        btnCRUDproveedor = findViewById(R.id.btnCRUDproveedor);
+        btnBuscarP1 = findViewById(R.id.btnBuscarP1);
+        txtProveedor = findViewById(R.id.txtProveedor);
 
         btnCRUDproveedor.setOnClickListener(new View.OnClickListener() {
             @Override

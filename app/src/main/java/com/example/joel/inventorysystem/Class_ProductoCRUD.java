@@ -11,27 +11,27 @@ import android.widget.Spinner;
 
 public class Class_ProductoCRUD extends AppCompatActivity {
 
-    private Button btnGuardarProd, btnModificarProd, btnEliminarProd, btnCancelarProd;
-    private ImageView btnBuscarProd2;
-    private EditText txtCodigoProd, txtNombreProd, txtUnidadProd, txtPrecioProd, txtFolioProd;
-    private Spinner spinCategoriaProd;
+    Button btnGuardarProd, btnModificarProd, btnEliminarProd, btnCancelarProd;
+    ImageView btnBuscarProd2;
+    EditText txtCodigoProd, txtNombreProd, txtUnidadProd, txtPrecioProd, txtFolioProd;
+    Spinner spinCategoriaProd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_producto_crud);
 
-        btnGuardarProd = (Button) findViewById(R.id.btnGuardarProd);
-        btnModificarProd = (Button) findViewById(R.id.btnModificarProd);
-        btnEliminarProd = (Button) findViewById(R.id.btnEliminarProd);
-        btnCancelarProd = (Button) findViewById(R.id.btnCancelarProd);
-        btnBuscarProd2 = (ImageView) findViewById(R.id.btnBuscarProd2);
-        txtCodigoProd = (EditText) findViewById(R.id.txtCodigoProd);
-        txtNombreProd = (EditText) findViewById(R.id.txtNombreProd);
-        txtPrecioProd = (EditText) findViewById(R.id.txtPrecioProd);
-        txtUnidadProd = (EditText) findViewById(R.id.txtUnidadProd);
-        txtFolioProd = (EditText) findViewById(R.id.txtFolioProd);
-        spinCategoriaProd = (Spinner) findViewById(R.id.spinCategoriaProd);
+        btnGuardarProd = findViewById(R.id.btnGuardarProd);
+        btnModificarProd = findViewById(R.id.btnModificarProd);
+        btnEliminarProd = findViewById(R.id.btnEliminarProd);
+        btnCancelarProd = findViewById(R.id.btnCancelarProd);
+        btnBuscarProd2 = findViewById(R.id.btnBuscarProd2);
+        txtCodigoProd = findViewById(R.id.txtCodigoProd);
+        txtNombreProd = findViewById(R.id.txtNombreProd);
+        txtPrecioProd = findViewById(R.id.txtPrecioProd);
+        txtUnidadProd = findViewById(R.id.txtUnidadProd);
+        txtFolioProd = findViewById(R.id.txtFolioProd);
+        spinCategoriaProd = findViewById(R.id.spinCategoriaProd);
 
         btnCancelarProd.setOnClickListener(new View.OnClickListener() {
             @Override

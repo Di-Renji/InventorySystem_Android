@@ -8,16 +8,16 @@ import android.widget.Button;
 
 public class Class_Entradas3 extends AppCompatActivity {
 
-    private Button btnAtrasE3, btnFinalizarE3, btnCancelarE3;
+    Button btnAtrasE3, btnFinalizarE3, btnCancelarE3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entradas3);
 
-        btnAtrasE3 = (Button) findViewById(R.id.btnAtrasE3);
-        btnFinalizarE3 = (Button) findViewById(R.id.btnFinalizarE3);
-        btnCancelarE3 = (Button) findViewById(R.id.btnCancelarE3);
+        btnAtrasE3 = findViewById(R.id.btnAtrasE3);
+        btnFinalizarE3 = findViewById(R.id.btnFinalizarE3);
+        btnCancelarE3 = findViewById(R.id.btnCancelarE3);
 
         btnAtrasE3.setOnClickListener(new View.OnClickListener() {
             @Override

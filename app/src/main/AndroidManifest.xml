@@ -29,7 +29,9 @@
         <activity android:name=".Class_Salidas1" />
         <activity android:name=".Class_Salidas2" />
         <activity android:name=".Class_Salidas3" />
-        <activity android:name=".Class_Acumulados"></activity>
+        <activity android:name=".Class_Acumulados" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgetAndChangePasswordActivity" />
     </application>
 
 </manifest>

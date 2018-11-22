@@ -9,25 +9,25 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 public class Class_ClienteCRUD extends AppCompatActivity {
-    private Button btnGuardarC, btnModificarC, btnEliminarC, btnCancelarC;
-    private ImageView btnBuscarC2;
-    private EditText txtCodigoC, txtNombreC, txtDireccionC, txtTelefonoC, txtCorreoC, txtDNIC;
+    Button btnGuardarC, btnModificarC, btnEliminarC, btnCancelarC;
+    ImageView btnBuscarC2;
+    EditText txtCodigoC, txtNombreC, txtDireccionC, txtTelefonoC, txtCorreoC, txtDNIC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cliente_crud);
-        btnGuardarC = (Button) findViewById(R.id.btnGuardarC);
-        btnModificarC = (Button) findViewById(R.id.btnModificarC);
-        btnEliminarC = (Button) findViewById(R.id.btnEliminarC);
-        btnCancelarC = (Button) findViewById(R.id.btnCancelarC);
-        btnBuscarC2 = (ImageView) findViewById(R.id.btnBuscarC2);
-        txtCodigoC = (EditText) findViewById(R.id.txtCodigoC);
-        txtNombreC = (EditText) findViewById(R.id.txtNombreC);
-        txtDireccionC = (EditText) findViewById(R.id.txtDireccionC);
-        txtTelefonoC = (EditText) findViewById(R.id.txtTelefonoC);
-        txtCorreoC = (EditText) findViewById(R.id.txtCorreoC);
-        txtDNIC = (EditText) findViewById(R.id.txtDNIC);
+        btnGuardarC = findViewById(R.id.btnCerrarSesion);
+        btnModificarC = findViewById(R.id.btnModificarC);
+        btnEliminarC = findViewById(R.id.btnEliminarC);
+        btnCancelarC = findViewById(R.id.btnCancelarC);
+        btnBuscarC2 = findViewById(R.id.btnBuscarC2);
+        txtCodigoC = findViewById(R.id.txtCodigoC);
+        txtNombreC = findViewById(R.id.txtNombreC);
+        txtDireccionC = findViewById(R.id.txtDireccionC);
+        txtTelefonoC = findViewById(R.id.txtTelefonoC);
+        txtCorreoC = findViewById(R.id.txtCorreoC);
+        txtDNIC = findViewById(R.id.txtDNIC);
 
         btnCancelarC.setOnClickListener(new View.OnClickListener() {
             @Override
