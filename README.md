@@ -179,6 +179,7 @@ OBSERVACIONES:
 # Screenshoots
 ![](https://i.imgur.com/aZ3dvrd.png)
 ![](https://i.imgur.com/5CabXah.jpg)
+![](https://i.imgur.com/1NzxONn.jpg)
 
 # Cuadro Resumen
 
