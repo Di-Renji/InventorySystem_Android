@@ -180,7 +180,8 @@ OBSERVACIONES:
 ![](https://i.imgur.com/aZ3dvrd.png)
 ![](https://i.imgur.com/5CabXah.jpg)
 ![](https://i.imgur.com/1NzxONn.jpg)
-
+![](https://i.imgur.com/XzYT2LC.jpg)
+![](https://i.imgur.com/WRg27kl_d.jpg?maxwidth=640&shape=thumb&fidelity=medium)
 # Cuadro Resumen
 
 
