@@ -30,8 +30,6 @@ public class Class_Entradas2 extends AppCompatActivity {
         txtIGVent = findViewById(R.id.txtIGVent);
         txtTotalEnt = findViewById(R.id.txtTotalEnt);
         spinEntCategoriaProd = findViewById(R.id.spinEntCategoriaProd);
-        btnCancelarE2 = findViewById(R.id.btnCancelarE2);
-        btnAtrasE2 = findViewById(R.id.btnAñadirE2);
         btnSiguienteE2 = findViewById(R.id.btnSiguienteE2);
 
         btnSiguienteE2.setOnClickListener(new View.OnClickListener() {

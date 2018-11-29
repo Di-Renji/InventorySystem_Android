@@ -8,7 +8,7 @@
     tools:context=".Class_Entradas3">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtItemProducto"
         android:layout_width="241dp"
         android:layout_height="24dp"
         android:layout_marginLeft="16dp"
@@ -34,7 +34,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemProducto"
         tools:background="@android:color/background_dark" />
 
     <ImageView
@@ -47,30 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/alicorppng" />
-
-    <Button
-        android:id="@+id/btnAtrasE3"
-        android:layout_width="103dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="Atras"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
-
-    <Button
-        android:id="@+id/btnCancelarE3"
-        android:layout_width="103dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="24dp"
-        android:text="Cancelar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider6" />
 
     <ListView
         android:layout_width="311dp"
@@ -89,15 +65,15 @@
         android:id="@+id/btnFinalizarE3"
         android:layout_width="103dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
         android:text="Finalizar"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toStartOf="@+id/btnCancelarE3"
-        app:layout_constraintStart_toEndOf="@+id/btnAtrasE3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider6" />
 
     <View

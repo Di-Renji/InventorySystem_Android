@@ -20,28 +20,15 @@
         app:layout_constraintTop_toBottomOf="@+id/sertr" />
 
     <Button
-        android:id="@+id/btnAñadirE2"
-        android:layout_width="153dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Añadir"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fcyjyt" />
-
-    <Button
         android:id="@+id/btnSiguienteE2"
         android:layout_width="153dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
         android:text="Siguiente"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCancelarE2" />
+        tools:layout_editor_absoluteY="331dp" />
 
     <EditText
         android:id="@+id/txtIGVent"
@@ -104,7 +91,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtEntPrecioProd" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtItemProducto"
         android:layout_width="222dp"
         android:layout_height="25dp"
         android:layout_marginLeft="16dp"
@@ -130,7 +117,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemProducto"
         tools:background="@android:color/background_dark" />
 
     <ImageView
@@ -298,30 +285,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinEntCategoriaProd"
         app:srcCompat="@android:drawable/ic_search_category_default" />
-
-    <Button
-        android:id="@+id/btnCancelarE2"
-        android:layout_width="153dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Cancelar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fcyjyt" />
-
-    <Button
-        android:id="@+id/btnAtrasE2"
-        android:layout_width="153dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="Atras"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAñadirE2" />
 
     <View
         android:id="@+id/sertr"

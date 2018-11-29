@@ -21,9 +21,6 @@ public class Class_Salidas2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_salidas2);
 
-        btnAñadirS2 = findViewById(R.id.btnAñadirS2);
-        btnCancelarS2 = findViewById(R.id.btnCancelarS2);
-        btnAtrasS2 = findViewById(R.id.btnAtrasS2);
         btnSiguienteS2 = findViewById(R.id.btnSiguienteS2);
         btnBuscarPSal2 = findViewById(R.id.btnBuscarPSal2);
         txtSalCodigoProd = findViewById(R.id.txtSalCodigoProd);

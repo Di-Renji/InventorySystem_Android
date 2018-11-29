@@ -28,7 +28,6 @@ public class Class_Entradas1 extends AppCompatActivity {
         txtEntFechaP = findViewById(R.id.txtEntFechaP);
         txtEntFolioP = findViewById(R.id.txtEntFolioP);
         btnBuscarPEnt1 = findViewById(R.id.btnBuscarPEnt1);
-        btnAtrasE1 = findViewById(R.id.btnAtrasE1);
         btnSiguienteE1 = findViewById(R.id.btnSiguienteE1);
 
         btnSiguienteE1.setOnClickListener(new View.OnClickListener() {

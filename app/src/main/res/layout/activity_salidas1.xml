@@ -8,7 +8,7 @@
     tools:context=".Class_Salidas1">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtItemProducto"
         android:layout_width="222dp"
         android:layout_height="25dp"
         android:layout_marginLeft="16dp"
@@ -34,7 +34,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemProducto"
         tools:background="@android:color/background_dark" />
 
     <View

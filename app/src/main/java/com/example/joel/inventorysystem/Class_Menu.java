@@ -1,20 +1,16 @@
 package com.example.joel.inventorysystem;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class Class_Menu extends AppCompatActivity {
 
-    ImageButton btnEntrada, btnSalida, btnProveedores, btnClientes, btnSalir, btnAcumulados, btnInventario, btnAjustes;
+    ImageButton btnEntrada, btnSalida, btnProveedores, btnClientes, btnSalir, btnAcumulados, btnInventario;
     FirebaseAuth mAuth;
 
 
@@ -29,7 +25,7 @@ public class Class_Menu extends AppCompatActivity {
         btnProveedores = findViewById(R.id.btnProveedores);
         btnInventario = findViewById(R.id.btnInventario);
         btnAcumulados = findViewById(R.id.btnAcumulados);
-        btnSalir = findViewById(R.id.btnCerrarSesion);
+        btnSalir = findViewById(R.id.btnGuardarC);
 
         mAuth = FirebaseAuth.getInstance();
 
