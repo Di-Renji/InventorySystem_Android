@@ -190,9 +190,9 @@ OBSERVACIONES:
 | Iniciar Sesión     | 8     | Si     |
 | Ver Inventario     | 8     | Si     |
 | CRUD de producto     | 8     | Si     |
-| Ver Proveedor     | 8     | Si     |
+| Ver Proveedor     | 8     | 80%     |
 | CRUD de Proveedor     | 8     | Si     |
-| Ver Cliente     | 8     | Si     |
+| Ver Cliente     | 8     | 80%     |
 | CRUD de Cliente     | 8     | Si     |
 | Asignar Proveedor a Entrada     | 7     | 25%     |
 | Asignar Cliente a Salida     | 7     | 25%     |
