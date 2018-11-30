@@ -168,7 +168,7 @@ DESCRIPCION:
 La ventana aparece después de pulsar el botón “Acumulados” del menú principal. Aquí se mantiene el detalle de los productos con su tipo de movimiento realizado (entrada o salida). Mediante el botón “Gmail” o “Outlook”, se enviarán estos datos por PDF a un correo.
 OBSERVACIONES:
 
-
+---
 # Diseño de base de dato estructurada
 ![](https://i.imgur.com/y2JHptX.jpg)
 
@@ -188,18 +188,25 @@ OBSERVACIONES:
 ![](https://i.imgur.com/6mzbFpu.png)
 
 ![](https://i.imgur.com/qQdO4i4.png)
-
+---
 # Problemas encontrados en el desarrollo
 1. Compatibilidad librerias de Firestore, ya que se encuentra en beta.
 2. Problemas de runtime con graddle, no lei correctamente el archivo settings.graddle, luego de haberlo exportado.
 3. Paquetes removidos o rotos de una migracion de google services version a otra.
-4. 
+---
 # Screenshoots
 ![](https://i.imgur.com/aZ3dvrd.png)
+---
+![](https://imgur.com/LApPgnO)
+---
 ![](https://i.imgur.com/5CabXah.jpg)
+---
 ![](https://i.imgur.com/1NzxONn.jpg)
+---
 ![](https://i.imgur.com/XzYT2LC.jpg)
+---
 ![](https://i.imgur.com/WRg27kl_d.jpg?maxwidth=640&shape=thumb&fidelity=medium)
+---
 # Cuadro Resumen
 
 
