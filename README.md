@@ -110,18 +110,36 @@ PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
 RIESGO: Alto	PUNTOS REALES: 7
 DESCRIPCION: 
 Se mostrará en ventana los campos del proveedor al que se le asignara la entrada (código, proveedor, dirección, teléfono, email, ruc, fecha), para su búsqueda se realizara por nombre de proveedor pulsando el botón de la lupa ubicada a lado del campo de nombre; si el proveedor es encontrado los demás datos serán llenados en las demás cajas de texto. Existe el botón “Siguiente” para poder realizar una entrada de productos y un botón “Cancelar” que hace retornar al menú principal.
+OBSERVACIONES:
+
+NUMERO: 9	TITULO: Asignar Producto a Entrada
+USUARIO: usuario
+MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 2
+PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
+RIESGO: Alto	PUNTOS REALES: 7
+DESCRIPCION: 
+Se mostrará en ventana los campos del proveedor al que se le asignara la entrada (código, categoria, nombre de producto, cantidad, precio, importe, subtotal, igv y total), para su búsqueda se realizara por nombre de producto pulsando el botón de la lupa ubicada a lado del campo de nombre; si el producto es encontrado los demás datos serán llenados en las demás cajas de texto. Existe el botón “Siguiente” para poder realizar una entrada de productos y un botón “Cancelar” que hace retornar al menú principal.
 OBSERVACIONES: 	
 
-NUMERO: 9	TITULO: Asignar Cliente a Salida
+NUMERO: 10	TITULO: Asignar Cliente a Salida
 USUARIO: usuario
 MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 2
 PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
 RIESGO: Alto	PUNTOS REALES: 7
 DESCRIPCION: 
 Se mostrará en ventana los campos del cliente al que se le asignará la salida (código, nombre, dirección, teléfono, email, dni, fecha), para su búsqueda se realizará por nombre de cliente pulsando el botón de la lupa ubicada a lado del campo de nombre; si el cliente es encontrado los demás datos serán llenados en las demás cajas de texto. Existe el botón “Siguiente” para poder realizar una Salida de productos y un botón “Cancelar” que hace retornar al menú principal.
+OBSERVACIONES:
+
+NUMERO: 11	TITULO: Asignar Producto a Salida
+USUARIO: usuario
+MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 2
+PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
+RIESGO: Alto	PUNTOS REALES: 7
+DESCRIPCION: 
+Se mostrará en ventana los campos del proveedor al que se le asignara la entrada (código, categoria, nombre de producto, cantidad, precio, importe, subtotal, igv y total), para su búsqueda se realizara por nombre de producto pulsando el botón de la lupa ubicada a lado del campo de nombre; si el producto es encontrado los demás datos serán llenados en las demás cajas de texto. Existe el botón “Siguiente” para poder realizar una entrada de productos y un botón “Cancelar” que hace retornar al menú principal.
 OBSERVACIONES: 	
 
-NUMERO: 10	TITULO: Generar Entradas
+NUMERO: 12	TITULO: Generar Entradas
 USUARIO: usuario
 MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 3
 PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
@@ -131,7 +149,7 @@ La ventana se muestra después de asignar un proveedor. Se muestran campos de te
 OBSERVACIONES: 	
 Existe un campo de texto Total, donde se irán sumando los importes de los productos agregados.
 
-NUMERO: 11	TITULO: Generar Salidas
+NUMERO: 13	TITULO: Generar Salidas
 USUARIO: usuario
 MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 3
 PRIORIDAD: Alto	PUNTOS ESTIMADOS: 7
@@ -141,7 +159,7 @@ La ventana se muestra después de asignar un cliente. Se muestran campos de text
 OBSERVACIONES:
 Existe un campo de texto Total, donde se irán sumando los importes de los productos agregados	
 
-NUMERO: 12	TITULO: Reportar Acumulados
+NUMERO: 14	TITULO: Reportar Acumulados
 USUARIO: usuario
 MODIFICACION DE HISTORIA N.º: 1	ITERACION ASIGNADA: 3
 PRIORIDAD: Medio	PUNTOS ESTIMADOS: 3
@@ -194,8 +212,11 @@ OBSERVACIONES:
 | CRUD de Proveedor     | 8     | Si     |
 | Ver Cliente     | 8     | 80%     |
 | CRUD de Cliente     | 8     | Si     |
-| Asignar Proveedor a Entrada     | 7     | 25%     |
-| Asignar Cliente a Salida     | 7     | 25%     |
+| Asignar Proveedor a Entrada     | 4     | 12.5%     |
+| Asignar Producto a Entrada     | 3     | 12.5%     |
+| Asignar Cliente a Salida     | 4     | 25%     |
+| Asignar Proveedor a Entrada     | 3     | 12.5%     |
+| Asignar Producto a Entrada     | 7     | 12.5%     |
 | Generar Entradas     | 14     | 25%     |
 | Generar Salidas     |14     | 25%     |
 | Reportar Acumulados     |2     | No     |
