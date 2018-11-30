@@ -197,7 +197,7 @@ OBSERVACIONES:
 # Screenshoots
 ![](https://i.imgur.com/aZ3dvrd.png)
 ---
-![](https://imgur.com/LApPgnO)
+![](https://imgur.com/LApPgnO.jpg)
 ---
 ![](https://i.imgur.com/5CabXah.jpg)
 ---
