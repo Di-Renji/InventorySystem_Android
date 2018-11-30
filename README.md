@@ -183,8 +183,6 @@ OBSERVACIONES:
 
 ![](https://i.imgur.com/bbRG9iY.png)
 
-![](https://i.imgur.com/CD2a9hW.png)
-
 ![](https://i.imgur.com/6mzbFpu.png)
 
 ![](https://i.imgur.com/qQdO4i4.png)
